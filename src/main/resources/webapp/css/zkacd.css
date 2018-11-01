@@ -29,7 +29,8 @@ body {
 
 .wrap-table{
     table-layout: fixed;
-    word-wrap: break-word;
+    white-space: nowrap;
+    /*word-wrap: break-word;*/
 }
 
 /* Wrapper for page content to push down footer */
@@ -55,8 +56,14 @@ table td { word-wrap: break-word; }
 /* Not required for template or sticky footer method. */
 
 #wrap > .container {
+    width: 100%;
     padding: 60px 15px 0;
 }
+
+.navbar .container {
+    width: 100%;
+}
+
 .container .credit {
     margin: 20px 0;
 }
