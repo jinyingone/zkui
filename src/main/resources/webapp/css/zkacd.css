@@ -29,8 +29,7 @@ body {
 
 .wrap-table{
     table-layout: fixed;
-    white-space: nowrap;
-    /*word-wrap: break-word;*/
+    word-wrap: break-word;
 }
 
 /* Wrapper for page content to push down footer */
