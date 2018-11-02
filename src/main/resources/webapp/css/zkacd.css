@@ -74,6 +74,11 @@ table td { word-wrap: break-word; }
     padding-right: 15px;
 }
 
+.property {
+    min-height: 350px;
+    resize: none;
+}
+
 code {
     font-size: 80%;
 }
